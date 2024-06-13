@@ -11,7 +11,7 @@ function Card({title,image,content,tags,published}){
             <p>{content}</p>
             <ul>
                 {tags.map((tag,index)=>(
-                    <li key={`tag ${index}`}>{tag}</li>
+                    <li key={`tag ${index}`} className={`color-${tag}`}>{tag}</li>
                 ))}
             </ul>
             <h3>{published}</h3>

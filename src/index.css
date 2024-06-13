@@ -58,3 +58,19 @@
 .not-available{
   display: none;
 }
+
+.color-html{
+  color: green;
+}
+
+.color-css{
+  color: rgb(255, 148, 223);
+}
+
+.color-js{
+  color: rgb(204, 184, 0);
+}
+
+.color-php{
+  color: purple;
+}
