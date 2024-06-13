@@ -53,3 +53,8 @@
   padding: 14px 25px;
   text-transform: uppercase;
 }
+
+
+.not-available{
+  display: none;
+}

@@ -6,7 +6,7 @@ function Main (){
     <>
     <main className={mainCss.container}>
         <h1>Il mio blog</h1>
-        <div className="card-container">
+        
          {posts.map((p)=>(
              <Card
              key={p.id}
@@ -17,7 +17,7 @@ function Main (){
              published={p.published}
              />
          ))} 
-        </div>
+        
     </main>
     </>
     )
