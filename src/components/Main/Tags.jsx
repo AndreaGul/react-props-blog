@@ -1,11 +1,12 @@
 
 function Tags ({tags}) {
     return (
-        <div>
+        <ul>
           {tags.map((tag, index) => (
-            <span key={index}>{tag} </span>
+            <li key={`tag ${index}`} className={`color-${tag}`}>{tag}</li>
+
           ))}
-        </div>
+        </ul>
       );
 }
 
