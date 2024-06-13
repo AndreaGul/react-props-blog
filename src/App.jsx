@@ -6,10 +6,10 @@ function App() {
 
   return (
     <>
-      <body>
+      <div className="all-container">
       <Main/>
       <Footer/>
-      </body>
+      </div>
      
       
       
